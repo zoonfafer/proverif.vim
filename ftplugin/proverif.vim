@@ -1,5 +1,5 @@
 " Language:    ProVerif
-" Maintainer:  Jeffrey Lau        <who.else@NOSPAMjlau.tk>
+" Maintainer:  Jeffrey Lau <who.else@NOSPAMjlau.tk>
 " URL:         https://github.com/zoonfafer/proverif.vim
 " Last Change:
 "              2019 Aug 10 - Initialize
