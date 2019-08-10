@@ -1,22 +1,38 @@
-proverif.vim
-=======
+# proverif.vim
 
-A vim mode for proverif's .pv files (http://prosecco.gforge.inria.fr/personal/bblanche/proverif/)
+A vim mode for proverif's .pv files
+(https://prosecco.gforge.inria.fr/personal/bblanche/proverif/)
 
-To use it, copy proverif.vim to ~/.vim/syntax/
+## Installation
 
-Set the following into your .vimrc for the mode to be applied automatically to files with the .pv extension:
+To use it, use your favourite package manager.  I.e., something like the
+following:
 
+```vim
+" ~/.vimrc
+Plugin 'zoonfafer/proverif.vim'
 ```
-" au BufRead,BufNewFile *.pv setfiletype proverif
+
+or
+
+```vim
+" ~/.vimrc
+NeoBundleInstall 'zoonfafer/proverif.vim'
 ```
 
-Use this to get the colors right (if your terminal does not support 256 colors, install ncurses-term on ubuntu):
+or
 
+```console
+$ cd ~/.vim/bundle && \
+  git clone https://github.com/zoonfafer/proverif.vim
 ```
-" set t_Co=256
-```
+
+## Showcase
 
 Here's the mode in action:
 
 ![proverif vim mode](http://i.imgur.com/JBz02jz.png)
+
+## Credits
+
+Original author: https://github.com/smelc/proverif.vim
